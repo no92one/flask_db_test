@@ -110,6 +110,12 @@ def success():
         <a href="/register">Register another user</a>
         """)
 
+@app.route('/')
+def main_page():
+    return html_base("Homepage", """
+        <h1>Homepage</h1>
+        """)
+
 # if __name__ == "__main__":
 #    app.run(debug=True)
 
