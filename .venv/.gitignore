@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+build/
+dist/
+*.egg
+*.wheel
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyCharm specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code specific
+.vscode/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+*.sqlite3
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehshell.exe
+
+# Tests and Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.nox/
+.pytest_cache/
+
+# PyInstaller
+*.spec
+
+# MyPy
+.mypy_cache/
+
+# PEP 582; used by e.g. python3 -m pymodule
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+*.pid
+
+# dotenv
+.env
+.env.*
+
+# IDE specific settings
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
