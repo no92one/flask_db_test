@@ -10,6 +10,8 @@ __pycache__/
 .Python
 env/
 venv/
+.env/
+.venv/
 ENV/
 *.egg-info/
 build/
